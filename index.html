@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DJ WEB APP</title>
+  <title>AI DJ WEB APP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,19 +13,23 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+
 </head>
-<body background="background.jpg">
+<body>
 <center>
-    <h3 class="btn btn-warning heading">DJ WEB APP
+    <h3 class="btn btn-warning heading">AI DJ WEB APP
       <br>
-      <span class="note">NOTE - Raise your left hand for Peter Pan Song and raise your right hand for Harry Potter Theme Song</span>
+      <span class="note">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed</span>
     </h3>
-      <h3 class="bn btn-danger" id="name">Song Name</h3>
-    
-  <br><br>
+    <div class="div_speed"></div>
+      <h3 class="bn btn-danger" id="speed">song_name</h3>
+    </div>
+
+  <button onclick="play()" class="btn btn-sucess play_button">Play</button>
 </center>
 
 <script src="main.js"></script>
 </body>
 </html>
-

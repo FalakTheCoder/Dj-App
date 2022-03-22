@@ -11,10 +11,23 @@
 
 body{
     background-size: cover;
+    background-color: skyblue;
 }
 
-#name{
+.div_speed{
+    float: left;
+}
+
+#speed{
     font-size: 23px;
     margin: 15px;
-    width: 200px;
 }
+
+.play_button{
+    width: 130px;
+    font-size: 25px;
+}
+ canvas{
+     border: 5px solid white;
+     border-radius: 20px;
+ }
